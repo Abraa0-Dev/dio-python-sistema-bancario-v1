@@ -38,6 +38,9 @@ while True:
 
         elif valor_saque < 0:
             print("Valor inválido!")
+        
+        elif valor_saque > limite:
+            print("O valor do saque excede o limite...")
 
         else:
             if numero_saques >= LIMITE_SAQUES:
